@@ -1,5 +1,11 @@
 # fluigdocs
 
+## Acessando a Documentação
+
+A documentação do projeto está disponível no seguinte endereço:
+
+[https://isacfg.github.io/fluigdocs/](https://isacfg.github.io/fluigdocs/)
+
 ## Instruções para Configuração do Ambiente
 
 ### Configurando o Ambiente Virtual (venv)
@@ -36,4 +42,14 @@ pip install -r requirements.txt
 
 ```bash
 mkdocs serve
+```
+
+## Publicando a Documentação no GitHub Pages
+
+1. No terminal, faça commit das alterações na branch main do projeto.:
+
+```bash
+git add .
+git commit -m "Atualizando a documentação"
+git push
 ```
